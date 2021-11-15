@@ -1,0 +1,3 @@
+verilog work "SPI_SLAVE_DP.v"
+verilog work "SPI_SLAVE_CU.v"
+verilog work "SPI_SLAVE.v"

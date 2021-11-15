@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the c
+SPI_SLAVE_CU ControlUnit (
+    .CS(CS), 
+    .SCLK(SCLK), 
+    .CNT_TICK(CNT_TICK), 
+    .CNT_SIX_TICK(CNT_SIX_TICK), 
+    .CMP_OUT(CMP_OUT), 
+    .CNT_EN(CNT_EN), 
+    .IN_SHIFT_EN(IN_SHIFT_EN), 
+    .OUT_SHIFT_EN(OUT_SHIFT_EN), 
+    .WRITE_EN(WRITE_EN), 
+    .DATA_LOAD_EN(DATA_LOAD_EN), 
+    .MUX_SEL(MUX_SEL), 
+    .CMP_EN(CMP_EN), 
+    .ADD_WR_EN(ADD_WR_EN), 
+    .ADD_INCREMENT(ADD_INCREMENT)
+    );
+
+

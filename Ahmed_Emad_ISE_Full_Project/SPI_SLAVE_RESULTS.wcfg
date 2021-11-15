@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/Si_VISION_INTERN/Assignment/Code/SPI_SLAVE/SPI_SLAVE_TEST_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="SPI_SLAVE_TEST" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/SPI_SLAVE_TEST/MISO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/MOSI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MOSI</obj_property>
+      <obj_property name="ObjectShortName">MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/CS" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/SCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/Clk_start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk_start</obj_property>
+      <obj_property name="ObjectShortName">Clk_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/Write_Num_operation" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Write_Num_operation[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Num_operation[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/Read_Num_operation" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Num_operation[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Num_operation[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/command" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">command[7:0]</obj_property>
+      <obj_property name="ObjectShortName">command[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/readData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/MULTI_RD_WR_PASS_FLAG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MULTI_RD_WR_PASS_FLAG</obj_property>
+      <obj_property name="ObjectShortName">MULTI_RD_WR_PASS_FLAG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/WRITE_COMMAND" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WRITE_COMMAND[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE_COMMAND[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/READ_COMMAND" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">READ_COMMAND[7:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_COMMAND[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_SLAVE_TEST/uut/data_Path/RegFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegFile[255:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">RegFile[255:0,7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

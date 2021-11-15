@@ -1,0 +1,5 @@
+verilog isim_temp "SPI_SLAVE_DP.v"
+verilog isim_temp "SPI_SLAVE_CU.v"
+verilog isim_temp "SPI_SLAVE.v"
+verilog isim_temp "SPI_SLAVE_TEST.v"
+verilog isim_temp "E:/programs/14.7/ISE_DS/ISE//verilog/src/glbl.v"
